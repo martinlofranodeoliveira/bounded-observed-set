@@ -1,0 +1,21 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <Deterministic>true</Deterministic>
+    <Version>0.1.0</Version>
+    <Authors>Lofrano Tecnologia</Authors>
+    <Company>Lofrano Tecnologia</Company>
+    <RepositoryUrl>https://github.com/martinlofranodeoliveira/bounded-observed-set</RepositoryUrl>
+    <PackageProjectUrl>https://lofranotecnologia.com.br</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)build/obj/$(MSBuildProjectName)/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)build/bin/$(MSBuildProjectName)/</BaseOutputPath>
+    <RestorePackagesPath>$(MSBuildThisFileDirectory)build/packages</RestorePackagesPath>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <NuGetLockFilePath>$(MSBuildProjectDirectory)/packages.lock.json</NuGetLockFilePath>
+  </PropertyGroup>
+</Project>

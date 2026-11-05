@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>A bounded, closed-membership observed-remove set for offline experiments.</Description>
+    <RootNamespace>Lofrano.BoundedObservedSet</RootNamespace>
+  </PropertyGroup>
+</Project>
